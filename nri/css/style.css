@@ -143,5 +143,33 @@ a{
 
 /* <----- key-visual -----> */
 
+/* <----- content ----->  */
+
+.share-container{
+  display: flex;
+}
+
+.share-container p{
+  margin-right: 30px;
+}
+
+.share-container ul{
+  display: flex;
+  list-style: none;
+}
+
+.share-container li{
+  margin-right: 30px;
+}
+
+.share-container li:last-child{
+  margin-right: 0;
+}
+
+.share-container img{
+  width: 24px;
+}
+/* <----- content ----->  */
+
 /* footer */
 
