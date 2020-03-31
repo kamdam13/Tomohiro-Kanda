@@ -109,6 +109,39 @@ a{
 
 /* main */
 
+/* <----- key-visual -----> */
+
+.main-keyvisual{
+  position: relative;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.main-keyvisual img{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.keyvisual-textcontainer{
+    max-width: 1000px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.keyvisual-textcontainer p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.keyvisual-textcontainer h1{
+  font-size: 28px;
+}
+
+/* <----- key-visual -----> */
 
 /* footer */
 
