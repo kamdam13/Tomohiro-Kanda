@@ -177,7 +177,8 @@ a{
 /* <----- content -----> */
 
 .main-content{
-  margin: 0 auto 60px auto;;
+  margin: 0 auto;
+  padding-bottom: 60px;
   max-width: 800px;
 }
 
@@ -310,9 +311,70 @@ a{
   margin: 0 auto;
   max-width: 1000px;
   border-top: 3px solid #666;
+  padding: 20px 0;
 }
 
+.main-info h2{
+  font-size: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #aeaeae;
+}
 
+.main-info-container{
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #aeaeae;
+}
+
+.main-info-container h3{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.info-list{
+  font-size: 14px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.info-list li{
+  margin-bottom: 25px;
+  width: 25%;
+}
+
+.info-list a{
+  color: #0c419a;
+}
+
+.info-list a:hover{
+  text-decoration: underline;
+}
+
+.info-list li::before{
+  content: ">";
+  color: #333;
+  margin-right: 14px;
+}
+
+.pageback-link{
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto 60px auto;
+  color: #0c419a;
+}
+
+.pageback-link:hover{
+  text-decoration: underline;
+}
+
+.pageback-link::before{
+  display: inline-block;
+  color: #333;
+  content: "<";
+  padding-right: 14px;
+}
 
 /* <----- main info -----> */
 
