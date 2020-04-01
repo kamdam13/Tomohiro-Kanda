@@ -30,11 +30,15 @@ a{
 
 /* header */
 
+header{
+  padding: 10px 0 20px 0;
+}
+
 .header-nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 20px 10px 30px;
+  margin: 0 30px 10px 30px;
 }
 
 .header-logo{
@@ -87,7 +91,7 @@ a{
 
 .header-directry-list{
   display: flex;
-  margin: 0 30px 20px 30px;
+  margin: 0 30px;
   list-style: none;
   color: #999;
   font-size: 13px;
@@ -381,7 +385,7 @@ a{
 /* footer */
 
 footer{
-  padding: 0 0 120px 0;
+  padding-bottom: 120px;
   border-top: 2px solid #666;
 }
 
