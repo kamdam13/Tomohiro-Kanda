@@ -31,14 +31,17 @@ a{
 /* header */
 
 header{
-  padding: 10px 0 20px 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  background: #fff;
 }
 
 .header-nav-container{
   display: flex;
-  justify-content: space-between;
+  margin: 10px 30px;
   align-items: center;
-  margin: 0 30px 10px 30px;
 }
 
 .header-logo{
@@ -89,29 +92,31 @@ header{
   opacity: 0.5;
 }
 
-.header-directry-list{
+/* main */
+main{
+  margin-top: 80px;
+}
+
+.main-directry-list{
   display: flex;
-  margin: 0 30px;
+  margin: 0 30px 20px 30px;
   list-style: none;
   color: #999;
   font-size: 13px;
 }
 
-.header-directry-list a{
+.main-directry-list a{
   color: #999;
 }
 
-.header-directry-list li::after{
+.main-directry-list li::after{
   content: ">";
   margin: 0 6px;
 }
 
-.header-directry-list li:last-child::after{
+.main-directry-list li:last-child::after{
   content: none;
 }
-
-
-/* main */
 
 /* <----- key-visual -----> */
 
