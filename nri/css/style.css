@@ -110,13 +110,14 @@ main{
   color: #999;
 }
 
-.main-directry-list li::after{
-  content: ">";
-  margin: 0 6px;
+.main-directry-list li{
+  background: url(../images/icon-chevronRight.svg) no-repeat 0 center;
+  background-size: 5px;
+  padding: 10px;
 }
 
-.main-directry-list li:last-child::after{
-  content: none;
+.main-directry-list li:first-child{
+  background: none;
 }
 
 /* <----- key-visual -----> */
@@ -158,7 +159,6 @@ main{
 .share-container{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   max-width: 800px;
   margin: 0 auto 30px auto;
 }
@@ -215,7 +215,7 @@ main{
 }
 
 .main-content .pdf-download{
-  width: 320px;
+  width: 300px;
   line-height: 1.4;
   margin: 0 auto 60px auto;
   text-align: center;
@@ -226,21 +226,15 @@ main{
   display: block;
   color: #fff;
   padding: 15px 0;
-  background: #005bac url(../images/icon-pdf.svg) no-repeat 220px 40px;
+  background-color: #005bac;
+  background-image:  url(../images/icon-pdf.svg) ,url(../images/icon-chevronRight-w.svg);
+  background-repeat: no-repeat;
+  background-size: auto, 5px;
+  background-position: 220px 40px, 10px center;
 }
 
 .pdf-download a:hover{
   opacity: 0.8;
-}
-
-.pdf-download a::before{
-  content: ">" ;
-  height: 14px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 10px;
-  margin: auto;
 }
 
 .main-page-selector{
@@ -296,28 +290,18 @@ main{
 }
 
 .main-topic-container a{
-  background: #fff;
   color: #0c419a;
   width: 100%;
   padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #fff url(../images/icon-chevronRight.svg) no-repeat 6px center;
+  background-size: 4px;
 }
 
 .main-topic-container a:hover{
   background: #efefef;
-}
-
-.main-topic-container a::before{
-  content: ">";
-  color: #393939;
-  position: absolute;
-  height: 28px;
-  left: 10px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
 }
 
 /* <----- content -----> */
@@ -359,21 +343,18 @@ main{
 
 .info-list li{
   margin-bottom: 25px;
-  width: 25%;
+  width: 23%;
 }
 
 .info-list a{
   color: #0c419a;
+  background: url(../images/icon-chevronRight.svg) no-repeat 0 center;
+  background-size: 3px;
+  padding-left: 12px;
 }
 
 .info-list a:hover{
   text-decoration: underline;
-}
-
-.info-list li::before{
-  content: ">";
-  color: #333;
-  margin-right: 14px;
 }
 
 .pageback-link{
@@ -381,17 +362,13 @@ main{
   max-width: 1000px;
   margin: 0 auto 60px auto;
   color: #0c419a;
+  background: url(../images/icon-chevronLeft.svg) no-repeat 0 10px;
+  background-size: 3px;
+  padding-left: 15px;
 }
 
 .pageback-link:hover{
   text-decoration: underline;
-}
-
-.pageback-link::before{
-  display: inline-block;
-  color: #333;
-  content: "<";
-  padding-right: 14px;
 }
 
 /* <----- main info -----> */
@@ -460,20 +437,19 @@ footer{
   display: block;
   color: #666;
   font-size: 14px;
+  background: url(../images/icon-chevronRight.svg) no-repeat 0 11px;
+  background-size: 3px;
+  padding-left: 12px;
 }
 
 .footer-site-map-container a:hover{
   text-decoration: underline;
 }
 
-.footer-site-map-container a::before{
-  content: ">";
-  display: inline-block;
-  font-weight: normal;
-  margin-right: 14px;
-}
-
 .footer-site-map-container .footer-link-bold{
+  background: url(../images/icon-chevronRight.svg) no-repeat 0 11px;
+  background-size: 3px;
+  padding-left: 12px;
   font-size: 16px;
   color: #333;
   font-weight: bold;
