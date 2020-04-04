@@ -8,3 +8,6 @@ js-weather/package.json
 .vscode/extensions.json
 *.code-workspace
 nri/.DS_Store
+
+js-weather-jquery/.eslintrc.json
+js-weather-jquery/package.json
