@@ -301,7 +301,8 @@ main{
 }
 
 .main-topic-container a:hover{
-  background: #efefef;
+  background: #efefef url(../images/icon-chevronRight.svg) no-repeat 6px center;
+  background-size: 4px;
 }
 
 /* <----- content -----> */
