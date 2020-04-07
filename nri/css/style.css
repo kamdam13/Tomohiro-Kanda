@@ -39,9 +39,15 @@ header{
   background: #fff;
 }
 
+.header-nav-wrapper{
+  display: flex;
+}
+
 .header-nav-container{
   display: flex;
-  margin: 10px 30px;
+  max-width: 1400px;
+  flex: 1 1 auto;
+  margin: 10px auto;
   align-items: center;
 }
 
@@ -54,7 +60,6 @@ header{
   display: flex;
   align-items: center;
   list-style: none;
-  margin-right: 30px;
 }
 
 .header-nav-list li{
@@ -75,6 +80,7 @@ header{
   display: flex;
   align-items: center;
   list-style: none;
+  margin-right: 30px;
 }
 
 .header-menu-list li{
@@ -99,8 +105,9 @@ main{
 }
 
 .main-directry-list{
+  max-width: 1200px;
   display: flex;
-  margin: 0 30px 10px 30px;
+  margin: 0 auto 10px auto;
   list-style: none;
   color: #999;
   font-size: 13px;
