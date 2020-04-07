@@ -413,11 +413,11 @@ footer{
 }
 
 .footer-site-map{
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 60px;
-  border-bottom: 1px solid #bfbfbf;
+  margin: 0 auto;
 }
 
 .footer-site-map-container{
@@ -454,6 +454,11 @@ footer{
   color: #333;
   font-weight: bold;
   margin-bottom: 24px;
+}
+
+.footer-policy-wrap{
+  border-top: 1px solid #bfbfbf;
+  padding-top: 60px;
 }
 
 .footer-policy{
