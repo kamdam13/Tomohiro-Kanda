@@ -11,3 +11,5 @@ nri/.DS_Store
 
 js-weather-jquery/.eslintrc.json
 js-weather-jquery/package.json
+.eslintrc.json
+package.json
