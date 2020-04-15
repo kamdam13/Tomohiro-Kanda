@@ -36,6 +36,11 @@ a:visited{
 	color: #3B3B3B;
 }
 
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
 /* header */
 
 .header-container{
@@ -71,12 +76,12 @@ a:visited{
 footer{
 	background: #918F89;
 	color: #FFF;
-	padding: 120px 224px 24px 224px;
+	padding: 120px 0 24px 0;
 	text-align: center;
 }
 
 .footer-container{
-	margin-bottom: 40px;
+	margin: 0 224px 40px 224px;
 	display: flex;
 	justify-content: space-between;
 }

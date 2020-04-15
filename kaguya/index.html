@@ -11,7 +11,7 @@
 <body>
   <!-- header -->
   <header>
-    <div class="header-container">
+    <div class="header-container container">
       <div class="header-logo">
         <img src="./images/Common/logo_header.png" alt="HTML CSS" srcset="./images/Common/logo_header.png 1x, ./images/Common/logo_header@2x 2x">
       </div>
@@ -32,59 +32,63 @@
       <img src="./images/Home/home_top.png" alt="家具屋" srcset="./images/Home/home_top.png 1x , ./images/Home/home_top@2x.png 2x">
       <p>We propose a life.</p>
     </div>
-    <section class="main-description">
-      <img src="./images/Home/concept.png" alt="素敵な暮らし" srcset="./images/Home/concept.png 1x , ./images/Home/concept@2x.png 2x" class="main-description-img">
-      <div class="main-description-text">
-        <h1>暮らしを提案する。</h1>
-        <p>私たちは、家具を売るのではなく、お客様の理想とする <br>
-          「暮らし」を提案します。<br>
-           仕事で疲れた後に帰りたくなる、<br> 
-           今日も１日頑張ろうと思える、<br> 
-           そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。</p>
-      </div>
-    </section>
-    <section class="main-news">
-      <h2>NEWS</h2>
-      <ul class="main-news-list">
-        <li><a href="#">アームストロングのカウチ入荷</a></li>
-        <li><a href="#">アームストロングのチェア再入荷</a></li>
-        <li><a href="#">アームストロングのテーブル入荷</a></li>
-      </ul>
-      <a href="#">view more</a>
-    </section>
-    <section class="main-catalog">
-      <h2>公式カタログ</h2>
-      <p>様々なスタイルをご提案いたします。オーダーメイドも可能です。 詳しくはカタログをご覧ください。</p>
-      <a href="#">カタログをダウンロード</a>
-    </section>
-    <section class="main-contact">
-      <h2>CONTACT</h2>
-      <form action="#" class="main-contact-form">
-        <input type="text" name="name" id="name-field" placeholder="お名前">
-        <input type="email" name="email" id="email-field" placeholder="メールアドレス">
-        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
-        <input type="submit" value="SEND">
-      </form>
-    </section>
-    <section class="main-recruit">
-      <h2>RECRUIT</h2>
-      <p>現在Staffを募集しております。 詳しくは詳細ページをご覧ください。</p>
-      <a href="#">view more</a>
-    </section>
+    <div class="container">
+      <section class="main-description">
+        <img src="./images/Home/concept.png" alt="素敵な暮らし" srcset="./images/Home/concept.png 1x , ./images/Home/concept@2x.png 2x" class="main-description-img">
+        <div class="main-description-text">
+          <h1>暮らしを提案する。</h1>
+          <p>私たちは、家具を売るのではなく、お客様の理想とする <br>
+            「暮らし」を提案します。<br>
+             仕事で疲れた後に帰りたくなる、<br> 
+             今日も１日頑張ろうと思える、<br> 
+             そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。</p>
+        </div>
+      </section>
+      <section class="main-news">
+        <h2>NEWS</h2>
+        <ul class="main-news-list">
+          <li><a href="#">アームストロングのカウチ入荷</a></li>
+          <li><a href="#">アームストロングのチェア再入荷</a></li>
+          <li><a href="#">アームストロングのテーブル入荷</a></li>
+        </ul>
+        <a href="#">view more</a>
+      </section>
+      <section class="main-catalog">
+        <h2>公式カタログ</h2>
+        <p>様々なスタイルをご提案いたします。オーダーメイドも可能です。 詳しくはカタログをご覧ください。</p>
+        <a href="#">カタログをダウンロード</a>
+      </section>
+      <section class="main-contact">
+        <h2>CONTACT</h2>
+        <form action="#" class="main-contact-form">
+          <input type="text" name="name" id="name-field" placeholder="お名前">
+          <input type="email" name="email" id="email-field" placeholder="メールアドレス">
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+          <input type="submit" value="SEND">
+        </form>
+      </section>
+      <section class="main-recruit">
+        <h2>RECRUIT</h2>
+        <p>現在Staffを募集しております。 詳しくは詳細ページをご覧ください。</p>
+        <a href="#">view more</a>
+      </section>
+    </div>
   </main>
   <!-- main -->
   <!-- footer -->
   <footer>
-    <div class="footer-container">
-      <img src="./images/Common/logo_footer.png" srcset="./images/Common/logo_footer.png 1x, ./images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
-      <ul class="footer-list">
-        <li><a href="./index.html">HOME</a></li>
-        <li><a href="./news/index.html">NEWS</a></li>
-        <li><a href="./recruit/index.html">RECRUIT</a></li>
-        <li><a href="./contact/index.html">CONTACT</a></li>
-      </ul>
+    <div class="container">
+      <div class="footer-container">
+        <img src="./images/Common/logo_footer.png" srcset="./images/Common/logo_footer.png 1x, ./images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
+        <ul class="footer-list">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./news/index.html">NEWS</a></li>
+          <li><a href="./recruit/index.html">RECRUIT</a></li>
+          <li><a href="./contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <p><small>&copy;HTMLCSS.code</small></p>
     </div>
-    <p><small>&copy;HTMLCSS.code</small></p>
   </footer>
   <!-- footer -->
 </body>
