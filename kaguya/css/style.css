@@ -67,3 +67,43 @@ a:visited{
 
 
 /* footer */
+
+footer{
+	background: #918F89;
+	color: #FFF;
+	padding: 120px 224px 24px 224px;
+	text-align: center;
+}
+
+.footer-container{
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-container img{
+	width: 64px;
+}
+
+.footer-list{
+	display: flex;
+	list-style: none;
+}
+
+.footer-list a{
+	color: #FFF;
+}
+
+.footer-list li{
+	font-size: 18px;
+	margin-right: 32px;
+}
+
+.footer-list li:last-child{
+	margin-right: 0;
+}
+
+footer small{
+	font-size: 11px;
+	letter-spacing: 0.44px;
+}
