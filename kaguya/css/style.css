@@ -70,6 +70,39 @@ a:visited{
 
 /* main */
 
+.main-keyvisual{
+	position: relative;
+}
+
+.main-keyvisual img{
+	max-height: 744px;
+	object-fit: cover;
+}
+
+.main-keyvisual p{
+	position: absolute;
+	color: #918F89;
+	font-size: 53px;
+	letter-spacing: 2.65px;
+	top: 37%;
+	right: 0;
+	left: 0;
+}
+
+.main-keyvisual span{
+	padding: 32px 0;
+	background: #FFF;
+	opacity: 0.8;
+}
+
+.main-keyvisual .main-keyvisual-separater1{
+	padding-left: 88px;
+}
+
+.main-keyvisual .main-keyvisual-separater3{
+	padding-right: 32px;
+}
+
 
 /* footer */
 
