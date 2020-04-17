@@ -25,8 +25,8 @@ img{
 
 h2{
 	font-weight: normal;
-	font-size: 23px;
-	letter-spacing: 2.3px;
+	font-size: 24px;
+	letter-spacing: 2.4px;
 	margin-bottom: 48px;
 }
 
@@ -273,6 +273,26 @@ input[type="submit"]{
 }
 
 /* main-contact */
+
+/* main-recruit */
+
+.main-recruit{
+	margin-bottom: 320px;
+}
+
+.main-recruit p{
+	font-size: 15px;
+	letter-spacing: 0.45px;
+	line-height: 2;
+	margin-bottom: 40px;
+}
+
+.main-recruit a{
+	font-size: 18px;
+	letter-spacing: 0.9px;
+}
+
+/* main-recruit */
 
 /* footer */
 
