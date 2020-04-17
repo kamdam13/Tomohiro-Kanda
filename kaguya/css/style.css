@@ -72,6 +72,14 @@ a:visited{
 	margin-right: 56px;
 }
 
+.header-nav-list li a{
+	color: #B2B2B2;
+}
+
+.header-nav-list li:first-child a{
+	color: #3B3B3B;
+}
+
 .header-nav-list li:last-child{
 	margin-right: 0;
 }
@@ -163,11 +171,7 @@ main section{
 .main-news a{
 	font-size: 18px;
 	letter-spacing: 0.9px;
-}
-
-.main-news a:hover{
-	opacity: 0.4;
-	transition: 0.35s;
+	opacity: 0.3;
 }
 
 .fa-chevron-right{
@@ -306,11 +310,7 @@ input[type="submit"]:hover{
 .main-recruit a{
 	font-size: 18px;
 	letter-spacing: 0.9px;
-}
-
-.main-recruit a:hover{
-	opacity: 0.4;
-	transition: 0.35s;
+	opacity: 0.3;
 }
 
 /* main-recruit */
