@@ -76,7 +76,7 @@ a:visited{
 	color: #B2B2B2;
 }
 
-.header-nav-list li:first-child a{
+.header-nav-list .header-current-page{
 	color: #3B3B3B;
 }
 
