@@ -345,6 +345,19 @@ input[type="submit"]:hover{
 }
 
 /* others-keyvisual */
+/* contact-page */
+
+.contact-content h1{
+	margin-bottom: 40px;
+}
+
+.contact-content p{
+	font-size: 15px;
+	margin-bottom: 72px;
+	letter-spacing: 0.6px;
+}
+
+/* contact-page */
 
 /* footer */
 
