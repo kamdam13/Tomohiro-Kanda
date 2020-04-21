@@ -13,7 +13,7 @@
   <header>
     <div class="header-container container">
       <div class="header-logo">
-        <img src="./images/Common/logo_header.png" alt="HTML CSS" srcset="./images/Common/logo_header.png 1x, ./images/Common/logo_header@2x.png 2x">
+        <img src="../images/Common/logo_header.png" alt="HTML CSS" srcset="../images/Common/logo_header.png 1x, ../images/Common/logo_header@2x.png 2x">
       </div>
       <nav class="header-nav">
         <ul class="header-nav-list">
@@ -28,20 +28,24 @@
   <!-- header -->
   <!-- main -->
   <main>
-    <div class="contact-keyvisual">
+    <div class="other-keyvisual">
       <img src="../images/Contact/contact_top.png" alt="Contact" srcset="../images/Contact/contact_top.png 1x , ../images/Contact/contact_top@2x.png 2x">
-      <p>CONTACT</p>
+      <p class="container">
+        <span class="contact-keyvisual-text-decorater">CONTACT</span>
+      </p>
     </div>
-    <section>
-      <h1>お問い合わせ</h1>
-      <p>オーダー家具や在庫状況のお問い合わせは下記フォームから承っております。</p>
-      <form action="#" class="contact-form">
-        <input type="text" name="name" id="name-field" placeholder="お名前">
-        <input type="email" name="email" id="email-field" placeholder="メールアドレス">
-        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
-        <input type="submit" value="SEND">
-      </form>
-    </section>
+    <div class="container">
+      <section class="other-content">
+        <h1>お問い合わせ</h1>
+        <p>オーダー家具や在庫状況のお問い合わせは下記フォームから承っております。</p>
+        <form action="#" class="main-contact-form">
+          <input type="text" name="name" id="name-field" placeholder="お名前">
+          <input type="email" name="email" id="email-field" placeholder="メールアドレス">
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+          <input type="submit" value="SEND">
+        </form>
+      </section>
+    </div>
   </main>
   <!-- main -->
   <!-- footer -->

@@ -23,7 +23,7 @@ img{
 	width: 100%;
 }
 
-h2{
+h1,h2{
 	font-weight: normal;
 	font-size: 24px;
 	letter-spacing: 2.4px;
@@ -115,8 +115,7 @@ main section{
 
 .main-keyvisual span{
 	padding: 32px 0;
-	background: #FFF;
-	opacity: 0.8;
+	background: rgba(255,255,255,0.8);
 }
 
 .main-keyvisual .main-keyvisual-separater1{
@@ -314,6 +313,38 @@ input[type="submit"]:hover{
 }
 
 /* main-recruit */
+
+/* others-keyvisual */
+
+.other-keyvisual{
+	position: relative;
+	margin-bottom: 160px;
+}
+
+.other-keyvisual img{
+	max-height: 456px;
+	object-fit: cover;
+}
+
+.other-keyvisual p{
+	position: absolute;
+	color: #918F89;
+	font-size: 30px;
+	letter-spacing: 3px;
+	top: 42%;
+	left: 0;
+	right: 0;
+}
+
+.other-keyvisual span{
+	padding-left: 228px;
+}
+
+.other-keyvisual .contact-keyvisual-text-decorater{
+	color: #FCFCFC;
+}
+
+/* others-keyvisual */
 
 /* footer */
 
