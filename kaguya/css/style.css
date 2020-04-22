@@ -3,10 +3,16 @@
 
 /* 共通 */
 html,body{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Noto Sans',sans-serif;
 	color: #3B3B3B;
 	background-color: #FCFCFC;
+}
+
+@media screen and (min-width: 1280px){
+	html,body{
+		font-size: 16px;
+	}
 }
 
 body,div,p,h1,h2,ul,figure{
@@ -45,23 +51,47 @@ a:visited{
 }
 
 .container{
-	max-width: 1280px;
+	padding: 0 8.5px;
 	margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px){
+	.container{
+		max-width: 1280px;
+	}
 }
 
 /* header */
 
 .header-container{
 	box-sizing: border-box;
-	padding: 8px 96px;
+	padding: 8px 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-end;
+	background: #918F89;
 }
 
 .header-logo{
-	height: 24px;
+	width: 39px;
 	margin: 8px 0;
+}
+
+.header-nav{
+	display: none;
+}
+
+@media screen and (min-width: 1280px){
+	.header-container{
+		background: #FCFCFC;
+		padding: 8px 96px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header-nav{
+		display: block;
+	}
 }
 
 .header-nav-list{
@@ -439,23 +469,46 @@ input[type="submit"]:hover{
 footer{
 	background: #918F89;
 	color: #FFF;
-	padding: 120px 0 24px 0;
+	padding: 72px 0 32px 0;
 	text-align: center;
 }
 
+@media screen and (min-width: 1280px){
+	footer{
+		padding: 120px 0 24px 0;
+	}
+}
+
 .footer-container{
-	margin: 0 224px 40px 224px;
+	margin-bottom: 82px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .footer-container img{
-	width: 64px;
+	width: 51.7px;
+}
+
+@media screen and (min-width: 1280px){
+	.footer-container{
+		margin: 0 224px 40px 224px;
+		justify-content: space-between;
+	}
+
+	.footer-container img{
+		width: 64px;
+	}
 }
 
 .footer-list{
-	display: flex;
+	display: none;
 	list-style: none;
+}
+
+@media screen and (min-width: 1280px){
+	.footer-list{
+		display: flex;
+	}
 }
 
 .footer-list a{
