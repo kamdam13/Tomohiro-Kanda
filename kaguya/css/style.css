@@ -129,7 +129,7 @@ main{
 
 main section{
 	text-align: center;
-	padding: 0 24px;
+	padding: 0 23px;
 }
 
 @media screen and (min-width: 1280px){
@@ -377,15 +377,15 @@ main section{
 }
 
 .main-catalog p{
-	font-size: 15px;
-	letter-spacing: 0.45px;
+	font-size: 14px;
+	letter-spacing: 0.42px;
 	line-height: 2;
 	margin-bottom: 40px;
 }
 
 .main-catalog a{
 	background: #D1D1D1;
-	width: 344px;
+	width: 280px;
 	margin: 0 auto;
 	padding: 18px 0;
 	font-size: 18px;
@@ -394,9 +394,20 @@ main section{
 	border-radius: 28px;
 }
 
-.main-catalog a:hover{
-	background: #B2B2B2;
-	color: #FCFCFC;
+@media screen and (min-width: 1280px){
+	.main-catalog p{
+		font-size: 15px;
+		letter-spacing: 0.45px;
+	}
+
+	.main-catalog a{
+		width: 344px;
+	}
+
+	.main-catalog a:hover{
+		background: #B2B2B2;
+		color: #FCFCFC;
+	}
 }
 
 /* main-catalog */
