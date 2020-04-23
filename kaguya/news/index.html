@@ -11,14 +11,14 @@
 <body>
   <!-- header -->
   <header>
-    <div class="header-container">
+    <div class="header-container container">
       <div class="header-logo">
-        <img src="../images/Common/logo_header.png" alt="HTML CSS" srcset="../images/Common/logo_header.png 1x, ../images/Common/logo_header@2x 2x">
+        <img src="../images/Common/logo_header.png" alt="HTML CSS" srcset="../images/Common/logo_header.png 1x, ../images/Common/logo_header@2x.png 2x">
       </div>
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li><a href="../index.html">HOME</a></li>
-          <li><a href="../news/index.html">NEWS</a></li>
+          <li><a href="../news/index.html"><span class="header-current-page">NEWS</span></a></li>
           <li><a href="../recruit/index.html">RECRUIT</a></li>
           <li><a href="../contact/index.html">CONTACT</a></li>
         </ul>
@@ -28,32 +28,53 @@
   <!-- header -->
   <!-- main -->
   <main>
-    <div class="news-keyvisual">
+    <div class="other-keyvisual">
       <img src="../images/News/news_top.png" alt="News" srcset="../images/News/news_top.png 1x, ../images/News/news_top@2x.png 2x">
-      <p>NEWS</p>
+      <p class="container">
+        <span>NEWS</span>
+      </p>
     </div>
-    <section>
-      <h1>入荷情報</h1>
-      <ul class="news-news-list">
-        <li><a href="#">アームストロングのカウチ入荷</a></li>
-        <li><a href="#">アームストロングのチェア再入荷</a></li>
-        <li><a href="#">アームストロングのテーブル入荷</a></li>
-      </ul>
-    </section>
+    <div class="container">
+      <section class="other-content">
+        <h1>入荷情報</h1>
+        <ul class="main-news-list">
+          <li>
+            <figure>
+              <img src="../images/Common/news01.png" alt="アームストロングのカウチ入荷">
+              <figcaption>アームストロングのカウチ入荷</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../images/Common/news02.png" alt="アームストロングのチェア再入荷">
+              <figcaption>アームストロングのチェア再入荷</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../images/Common/news03.png" alt="アームストロングのテーブル入荷">
+              <figcaption>アームストロングのテーブル入荷</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
   <!-- main -->
   <!-- footer -->
   <footer>
-    <div class="footer-container">
-      <img src="../images/Common/logo_footer.png" srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
-      <ul class="footer-list">
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="../news/index.html">NEWS</a></li>
-        <li><a href="../recruit/index.html">RECRUIT</a></li>
-        <li><a href="../contact/index.html">CONTACT</a></li>
-      </ul>
+    <div class="container">
+      <div class="footer-container">
+        <img src="../images/Common/logo_footer.png" srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
+        <ul class="footer-list">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../news/index.html">NEWS</a></li>
+          <li><a href="../recruit/index.html">RECRUIT</a></li>
+          <li><a href="../contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <p><small>&copy;HTMLCSS.code</small></p>
     </div>
-    <p><small>&copy;HTMLCSS.code</small></p>
   </footer>
   <!-- footer -->
 </body>
