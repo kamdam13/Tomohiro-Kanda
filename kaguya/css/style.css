@@ -558,7 +558,6 @@ input[type="submit"]{
 .other-keyvisual img{
 	height: 648px;
 	object-fit: cover;
-	object-position: 95% center;
 }
 
 @media screen and (min-width: 1280px){
