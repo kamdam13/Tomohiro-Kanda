@@ -147,23 +147,19 @@ main section{
 /* main-key-visual */
 
 .main-keyvisual{
+	display: block;
 	position: relative;
 	margin-bottom: 80px;
 }
 
 .main-keyvisual img{
-	height: 744px;
+	max-height: 744px;
 	object-fit: cover;
-	object-position: 45% center;
 }
 
 @media screen and (min-width: 1280px){
 	.main-keyvisual{
 		margin-bottom: 88px;
-	}
-	
-	.main-keyvisual img{
-		object-position: center center;
 	}
 }
 
@@ -551,6 +547,7 @@ input[type="submit"]{
 /* others-keyvisual */
 
 .other-keyvisual{
+	display: block;
 	position: relative;
 	margin-bottom: 160px;
 }
@@ -558,12 +555,12 @@ input[type="submit"]{
 .other-keyvisual img{
 	height: 648px;
 	object-fit: cover;
+	object-position: center 100%;
 }
 
 @media screen and (min-width: 1280px){
 	.other-keyvisual img{
-		height: 456px;
-		object-position: center center;
+		max-height: 456px;
 	}
 }
 
