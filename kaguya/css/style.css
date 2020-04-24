@@ -556,22 +556,43 @@ input[type="submit"]{
 }
 
 .other-keyvisual img{
-	max-height: 456px;
+	height: 648px;
 	object-fit: cover;
+	object-position: 95% center;
+}
+
+@media screen and (min-width: 1280px){
+	.other-keyvisual img{
+		height: 456px;
+		object-position: center center;
+	}
 }
 
 .other-keyvisual p{
 	position: absolute;
-	color: #918F89;
-	font-size: 30px;
-	letter-spacing: 3px;
-	top: 42%;
+	text-align: center;
+	color: #3B3B3B;
+	font-size: 25px;
+	letter-spacing: 2.5px;
+	top: 31%;
 	left: 0;
 	right: 0;
 }
 
-.other-keyvisual span{
-	padding-left: 228px;
+@media screen and (min-width: 1280px){
+	.other-keyvisual p{
+		text-align: left;
+		color: #918F89;
+		font-size: 30px;
+		letter-spacing: 3px;
+		top: 42%;
+		left: 0;
+		right: 0;
+	}
+	
+	.other-keyvisual span{
+		padding-left: 228px;
+	}
 }
 
 .other-keyvisual .contact-keyvisual-text-decorater{
