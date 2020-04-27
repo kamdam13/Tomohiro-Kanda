@@ -151,7 +151,6 @@ main section{
 /* main-key-visual */
 
 .main-keyvisual{
-	display: block;
 	position: relative;
 	margin-bottom: 80px;
 }
@@ -578,7 +577,6 @@ input[type="submit"]{
 /* others-keyvisual */
 
 .other-keyvisual{
-	display: block;
 	position: relative;
 	margin-bottom: 160px;
 }
