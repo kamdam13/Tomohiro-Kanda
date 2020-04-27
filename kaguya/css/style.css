@@ -246,7 +246,6 @@ main section{
 
 .main-description-text h1{
 	margin: 0 49px 32px 64px;
-	display: inline-block;
 	font-size: 21px;
 	font-weight: normal;
 	letter-spacing: 2.1px;
@@ -289,6 +288,16 @@ main section{
 
 .main-news{
 	margin-bottom: 240px;
+}
+
+.main-news h1, .main-news h2{
+	margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1280px){
+	.main-news h1, .main-news h2{
+		margin-bottom: 48px;
+	}
 }
 
 .main-news a{
@@ -420,6 +429,16 @@ main section{
 	margin-bottom: 240px;
 }
 
+.main-contact h2{
+	margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1280px){
+	.main-contact h2{
+		margin-bottom: 48px;
+	}
+}
+
 .main-contact-form{
 	margin: 0 22px;
 }
@@ -518,6 +537,10 @@ input[type="submit"]{
 
 /* main-recruit */
 
+.main-recruit h2{
+	margin-bottom: 32px;
+}
+
 .main-recruit p{
 	font-size: 15px;
 	letter-spacing: 0.45px;
@@ -533,6 +556,10 @@ input[type="submit"]{
 }
 
 @media screen and (min-width: 1280px){
+	.main-recruit h2{
+		margin-bottom: 48px;
+	}
+
 	.main-recruit p{
 		margin-bottom: 40px;
 	}
@@ -598,6 +625,16 @@ input[type="submit"]{
 /* others-keyvisual */
 
 /* recruit-page */
+
+.recruit-content h1{
+	margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px){
+	.recruit-content h1{
+		margin-bottom: 32px;
+	}
+}
 
 .recruit-content table{
 	margin: 0 auto;
@@ -673,7 +710,13 @@ input[type="submit"]{
 /* contact-page */
 
 .contact-content h1{
-	margin-bottom: 40px;
+	margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1280px){
+	.contact-content{
+		margin-bottom: 40px;
+	}
 }
 
 .contact-content p{
