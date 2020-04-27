@@ -583,12 +583,6 @@ input[type="submit"]{
 	margin-bottom: 160px;
 }
 
-.other-keyvisual img{
-	height: 648px;
-	object-fit: cover;
-	object-position: center 100%;
-}
-
 @media screen and (min-width: 1280px){
 	.other-keyvisual img{
 		max-height: 456px;
@@ -717,16 +711,33 @@ input[type="submit"]{
 	margin-bottom: 32px;
 }
 
-@media screen and (min-width: 1280px){
-	.contact-content{
-		margin-bottom: 40px;
-	}
+.contact-content .dp-pc{
+	display: none;
 }
 
 .contact-content p{
+	display: none;
 	font-size: 15px;
 	margin-bottom: 72px;
 	letter-spacing: 0.6px;
+}
+
+
+@media screen and (min-width: 1280px){
+	.contact-content h1{
+		margin-bottom: 40px;
+	}
+	.contact-content .dp-pc{
+		display: block;
+	}
+
+	.contact-content .dp-sp{
+		display: none;
+	}
+
+	.contact-content p{
+		display: block;
+	}
 }
 
 /* contact-page */
