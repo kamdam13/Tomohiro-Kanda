@@ -7,6 +7,12 @@ html,body{
 	font-family: 'Noto Sans',sans-serif;
 	color: #3B3B3B;
 	background-color: #FCFCFC;
+	transition: opacity ease-out 150ms;
+	animation: fadeIn 150ms ease-out 0ms 1 normal;
+}
+@keyframes fadeIn {
+    0% {opacity: 0.1}
+    100% {opacity: 1}
 }
 
 @media screen and (min-width: 1280px){
@@ -68,6 +74,7 @@ header{
 	position: fixed;
 	width: 100vw;
 	z-index: 1000;
+	box-shadow: 0px 3px 6px #00000029;
 }
 
 .header-container{
@@ -85,44 +92,76 @@ header{
 
 .header-nav{
 	display: none;
+	position: fixed;
+	background-color: #918f89;
+	opacity: 0.9;
+	height: 100vh;
+	top: 56px;
+	left: 0;
+	right: 0;
+}
+
+.header-nav-list{
+	display: flex;
+	flex-flow: column;
+	list-style: none;
+}
+
+.header-nav-list li{
+	padding: 32px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.header-nav-list li a{
+	text-align: center;
+	color: #FFF;
+	opacity: 1;
+	font-size: 20px;
 }
 
 @media screen and (min-width: 1280px){
 	header{
 		position: static;
 		background: #FCFCFC;
+		box-shadow: none;
 	}
 
 	.header-container{
 		padding: 8px 96px;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-end;
 	}
 
 	.header-nav{
 		display: block;
+		position: initial;
+		background: none;
+		opacity: 1;
+		height: auto;
 	}
-}
 
-.header-nav-list{
-	display: flex;
-	list-style: none;
-}
+	.header-nav-list{
+		flex-flow: row;
+	}
 
-.header-nav-list li{
-	margin-right: 56px;
-}
+	.header-nav-list li{
+		padding: 0;
+		margin-right: 56px;
+	}
 
-.header-nav-list li a{
-	color: #B2B2B2;
-}
+	.header-nav-list li:last-child{
+		margin-right: 0;
+	}
 
-.header-nav-list .header-current-page{
-	color: #3B3B3B;
-}
+	.header-nav-list li a{
+		color: #B2B2B2;
+		font-size: 16px;
+	}
 
-.header-nav-list li:last-child{
-	margin-right: 0;
+	.header-nav-list .header-current-page{
+		color: #3B3B3B;
+	}
+
 }
 
 /* main */
@@ -200,11 +239,11 @@ main section{
 		padding: 32px 0;
 		background: rgba(255,255,255,0.8);
 	}
-	
+
 	.main-keyvisual .main-keyvisual-separater1{
 		padding-left: 88px;
 	}
-	
+
 	.main-keyvisual .main-keyvisual-separater3{
 		padding-right: 32px;
 	}
@@ -269,14 +308,14 @@ main section{
 		flex-flow: column;
 		justify-content: flex-end;
 	}
-	
+
 	.main-description-text h1{
 		font-size: 25px;
 		font-weight: normal;
 		letter-spacing: 2.5px;
 		margin:0 0 71px 0;
 	}
-	
+
 	.main-description-text p{
 		font-size: 12px;
 		letter-spacing: 0.36px;
@@ -608,7 +647,7 @@ input[type="submit"]{
 		left: 0;
 		right: 0;
 	}
-	
+
 	.other-keyvisual span{
 		padding-left: 228px;
 	}

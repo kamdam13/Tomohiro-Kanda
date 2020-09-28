@@ -14,3 +14,5 @@ js-weather-jquery/package.json
 .eslintrc.json
 package.json
 kaguya/template
+kaguya/node_modules/
+kaguya/package-lock.json
