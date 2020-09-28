@@ -16,3 +16,4 @@ package.json
 kaguya/template
 kaguya/node_modules/
 kaguya/package-lock.json
+kaguya/.vscode/*
