@@ -458,12 +458,16 @@ main section{
 
 .main-news-list figure{
 	flex:	1 1 320px;
-	background: #000;
 	position: relative;
 }
 
-.main-news-list img{
+.main-news-background{
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
 	opacity: 0.6;
+	width: 100%;
+	height: 100%;
 }
 
 .main-news-list figcaption{
@@ -481,9 +485,22 @@ main section{
 
 @media screen and (min-width: 1280px){
 	.main-news-list figcaption{
+		transition: opacity 650ms;
 		letter-spacing: -0.85px;
 		font-size: 17px;
 		text-shadow: 0px 0px 6px #000000E0;
+	}
+
+	.main-news-background{
+		display: none;
+	}
+
+	.main-news-list figcaption{
+		opacity: 0;
+	}
+
+	.main-news-list figcaption.active{
+		opacity: 1;
 	}
 }
 
