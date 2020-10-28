@@ -73,21 +73,27 @@ header{
 	background: #918F89;
 	position: fixed;
 	width: 100vw;
+	height: 56px;
 	z-index: 1000;
 	box-shadow: 0px 3px 6px #00000029;
 }
 
 .header-container{
+	position: relative;
 	box-sizing: border-box;
-	padding: 8px 0;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: flex-end;
 }
 
 .header-logo{
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	width: 39px;
-	margin: 8px 0;
+	margin: 0 auto;
 }
 
 .header-nav{
@@ -99,6 +105,10 @@ header{
 	top: 56px;
 	left: 0;
 	right: 0;
+}
+
+.header-nav.active{
+	display: block;
 }
 
 .header-nav-list{
@@ -119,6 +129,53 @@ header{
 	font-size: 20px;
 }
 
+#header-nav-button{
+	position: relative;
+	height: 20px;
+	width: 30px;
+	margin: 18px 30px;
+}
+
+.nav-button-line{
+	display: block;
+	position: absolute;
+	left: 0;
+	transition: 100ms;
+	width: 30px;
+	height: 2px;
+	background-color: #FFF;
+}
+
+.nav-button-line.line1{
+	top: 0px;
+}
+
+.nav-button-line.line1.active{
+	top: 9px;
+	transform: rotate(45deg);
+}
+
+.nav-button-line.line2{
+	top: 9px;
+}
+
+.nav-button-line.line2.active{
+	transform: translateX(100%);
+	transition: all 500ms;
+	opacity: 0;
+}
+
+
+.nav-button-line.line3{
+	bottom: 0px;
+}
+
+.nav-button-line.line3.active{
+	bottom: 9px;
+	transform: rotate(-45deg);
+}
+
+
 @media screen and (min-width: 1280px){
 	header{
 		position: static;
@@ -130,6 +187,11 @@ header{
 		padding: 8px 96px;
 		justify-content: space-between;
 		align-items: flex-end;
+	}
+
+	.header-logo{
+		position: static;
+		margin: 8px 0;
 	}
 
 	.header-nav{
@@ -162,6 +224,9 @@ header{
 		color: #3B3B3B;
 	}
 
+	#header-nav-button{
+		display: none;
+	}
 }
 
 /* main */
