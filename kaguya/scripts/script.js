@@ -20,3 +20,8 @@ $('.main-news-list li').hover(function () {
     $(this).find('figcaption').toggleClass('active');
   }
 });
+
+$('.main-contact-form').submit((e) => {
+  e.preventDefault();
+  $('input[type="submit"]').val('TRANSMISSION COMPLETED').addClass('sent');
+});
