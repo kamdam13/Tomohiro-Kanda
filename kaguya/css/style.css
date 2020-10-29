@@ -627,6 +627,7 @@ input[type="submit"]{
 	width: 173px;
 	border: #D1D1D1 1px solid;
 	border-radius: 30px;
+	outline: none;
 }
 
 input[type="submit"].sent{
