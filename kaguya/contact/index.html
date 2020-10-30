@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,22 @@
   <link rel="stylesheet" href="../css/style.css">
   <title>kaguya</title>
 </head>
+
 <body>
   <!-- header -->
   <header>
     <div class="header-container container">
-        <picture class="header-logo">
-          <source media="(min-width:1280px )" srcset="../images/Common/logo_header.png 1x, ../images/Common/logo_header@2x.png 2x">
-          <img src="../images/Common/logo_footer.png" alt="HTML CSS" srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x">
-        </picture>
+      <picture class="header-logo">
+        <source media="(min-width:1280px )"
+          srcset="../images/Common/logo_header.png 1x, ../images/Common/logo_header@2x.png 2x">
+        <img src="../images/Common/logo_footer.png" alt="HTML CSS"
+          srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x">
+      </picture>
+      <div id="header-nav-button">
+        <span class="nav-button-line line1"></span>
+        <span class="nav-button-line line2"></span>
+        <span class="nav-button-line line3"></span>
+      </div>
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li><a href="../index.html">HOME</a></li>
@@ -31,8 +40,10 @@
   <main>
     <div class="other-keyvisual">
       <picture>
-        <source media="(min-width:1280px )" srcset="../images/Contact/contact_top.png 1x, ../images/Contact/contact_top@2x.png 2x">
-        <img src="../images/Contact/contact_top_sp.png" alt="Contact" srcset="../images/Contact/contact_top_sp.png 1x , ../images/Contact/contact_top_sp@2x.png 2x">
+        <source media="(min-width:1280px )"
+          srcset="../images/Contact/contact_top.png 1x, ../images/Contact/contact_top@2x.png 2x">
+        <img src="../images/Contact/contact_top_sp.png" alt="Contact"
+          srcset="../images/Contact/contact_top_sp.png 1x , ../images/Contact/contact_top_sp@2x.png 2x">
       </picture>
       <p class="container">
         <span class="contact-keyvisual-text-decorater">CONTACT</span>
@@ -58,7 +69,8 @@
   <footer>
     <div class="container">
       <div class="footer-container">
-        <img src="../images/Common/logo_footer.png" srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
+        <img src="../images/Common/logo_footer.png"
+          srcset="../images/Common/logo_footer.png 1x, ../images/Common/logo_footer@2x.png 2x" alt="HTML CSS">
         <ul class="footer-list">
           <li><a href="../index.html">HOME</a></li>
           <li><a href="../news/index.html">NEWS</a></li>
@@ -70,5 +82,8 @@
     </div>
   </footer>
   <!-- footer -->
+  <script src="../scripts/jquery-3.5.1.min.js"></script>
+  <script src="../scripts/script.js"></script>
 </body>
+
 </html>
